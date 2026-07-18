@@ -51,14 +51,21 @@ pkg install hello-custom
 hello-custom
 ```
 
-### 3. `android-sdk`
+### 3. `agy`
+Helper package that installs `antigravity-cli` (as a dependency) and pre-configures a clean `.gemini/` configuration folder with pre-approved permissions for common developer commands.
+To install:
+```bash
+pkg install agy
+```
+
+### 4. `android-sdk`
 Pre-configured Android SDK and NDK distribution package (required for `build`).
 To install:
 ```bash
 pkg install android-sdk
 ```
 
-### 4. `flutter`
+### 5. `flutter`
 Google's UI toolkit and Flutter SDK distribution package (required for `build`).
 To install:
 ```bash
