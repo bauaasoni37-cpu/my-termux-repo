@@ -1,0 +1,25 @@
+Package: build
+Version: 1.0.0
+Architecture: all
+Maintainer: Antigravity <antigravity@google.com>
+Depends: nodejs-lts, openjdk-17, openjdk-21, android-sdk, flutter, yarn, git, wget, curl, unzip, zip, tar, clang, make, cmake, ninja, apksigner, aapt2, ncurses-utils
+Description: Fully automated Android Build Environment setup for Termux. Installs all packages and sets up SDK/NDK variables.
+Filename: dists/termux/extras/binary-all/build_1.0.0_all.deb
+Size: 9268
+MD5Sum: 7a19e88842fbc5e6bc96d72ce310adc8
+SHA1: f17187ffa2625303604a9bdc6d88657ea530d684
+SHA256: eb7f2a2d3753dbcf1c4de58393d01fbffedffbff0d087f6df0595122e6f98792
+SHA512: a6b39432b493e64cf44ce882067bdd229b38b65ae89ed2859eddf9bacbe3d80f427e887e7ecea6e0f065caa014e10b0068e417c5ca06801ae085f3042973826a
+
+Package: hello-custom
+Version: 1.0.0
+Architecture: all
+Maintainer: Termux User <user@termux.org>
+Description: A simple hello script to test our custom apt repository.
+Filename: dists/termux/extras/binary-all/hello-custom_1.0.0_all.deb
+Size: 884
+MD5Sum: cffea9fbe67a67fa49cc2f401c815a53
+SHA1: 8c25287fdc9120e116efbdea167f0fdae75113c8
+SHA256: 348bb91eb00e8e46c475ac38565f9717c78f477535ab76b273be249fb49def9c
+SHA512: a844b2e38024fbbc969718c9fd01e416b3829c40efe9368bb2fa5cc08359f7c461c9f815f0ee48e732ff9e0b158a9b053a77f5898254e0d3676f0e1663c11927
+
