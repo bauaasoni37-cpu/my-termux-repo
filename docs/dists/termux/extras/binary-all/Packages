@@ -1,3 +1,16 @@
+Package: agy
+Version: 1.0.0
+Architecture: all
+Maintainer: bauaasoni37-cpu <bauaasoni37-cpu@users.noreply.github.com>
+Depends: antigravity-cli
+Description: Pre-configures Google Antigravity CLI and sets up the allowed commands list in the .gemini folder.
+Filename: dists/termux/extras/binary-all/agy_1.0.0_all.deb
+Size: 1420
+MD5Sum: 2c0bd4f59554f95ca332227ce56e3311
+SHA1: 59ff9184635a400710feb8ed8f8e6c2b8b9dafed
+SHA256: 127ceb09374496a0df207a546d6728b539b4a86850c06b2d8b54888f7439747c
+SHA512: f06281fff76609e28e5a61ee5d185d675de8d181c821151a2ed2ff6724d50c53907cb76c11198b62bcb6790d680acdd601b636e88a0ea96a605ca0b3281cd966
+
 Package: android-sdk
 Version: 36.0.0
 Architecture: all
@@ -46,14 +59,14 @@ Package: build
 Version: 1.0.0
 Architecture: all
 Maintainer: Antigravity <antigravity@google.com>
-Depends: nodejs-lts, openjdk-17, openjdk-21, android-sdk, flutter, yarn, git, wget, curl, unzip, zip, tar, clang, make, cmake, ninja, apksigner, aapt2, ncurses-utils, antigravity-cli
+Depends: nodejs-lts, openjdk-17, openjdk-21, android-sdk, flutter, yarn, git, wget, curl, unzip, zip, tar, clang, make, cmake, ninja, apksigner, aapt2, ncurses-utils
 Description: Fully automated Android Build Environment setup for Termux. Installs all packages and sets up SDK/NDK variables.
 Filename: dists/termux/extras/binary-all/build_1.0.0_all.deb
-Size: 10048
-MD5Sum: 280c7e59727e75e3fded746d76d5933d
-SHA1: 149c0b96be75c2e6d9d9c888c763647ab47ccb27
-SHA256: 9f643b894db026fd297b43a012ae8fa635ce3c9385229602aedab33d9a7976e0
-SHA512: 01528013b436a20cae606b5ede65d8785b1688ba6584d0637bfe08361613708eb3594617fac8e7b07afc5383899edf775c143e009c765035e2e7d8276d610c9e
+Size: 9648
+MD5Sum: bee19022a533a4277e7d8c43a57f8e2c
+SHA1: 22a71e7013d7d8992d1b048509cedf931aeaaef4
+SHA256: 0a98105e0f8ed8b633fe477b9258be4073696e675d7a9d08b291461c0dc97f2c
+SHA512: 9c00e12bd473e78542c290f21ccb37d209864437ec671b39055cf8773094c2641db53b3b84455a8fd76a9d3c61e6bf2fe1967cba2ab78c7d99a66f7feea85b6b
 
 Package: flutter
 Version: 3.41.9
