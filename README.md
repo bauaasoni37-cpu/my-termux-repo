@@ -14,7 +14,10 @@ curl -sL https://raw.githubusercontent.com/bauaasoni37-cpu/my-termux-repo/main/i
 ```
 
 This script will:
-1. Add this repository to your Termux sources list at `/data/data/com.termux/files/usr/etc/apt/sources.list.d/myrepo.list`.
+1. Create a sources list file in Termux:
+   ```bash
+   echo "deb [trusted=yes arch=all] https://bauaasoni37-cpu.github.io/my-termux-repo/ termux extras" > $PREFIX/etc/apt/sources.list.d/myrepo.list
+   ```
 2. Update the package index automatically.
 
 ---
