@@ -7,18 +7,16 @@ This repository hosts custom-built Termux packages, including the fully automate
 
 ## 🚀 Quick Setup & Installation
 
-You can add this repository to your Termux environment with a single command:
+You can add this repository and all of its dependencies to your Termux environment with a single command:
 
 ```bash
 curl -sL https://raw.githubusercontent.com/bauaasoni37-cpu/my-termux-repo/main/install.sh | bash
 ```
 
-This script will:
-1. Create a sources list file in Termux:
-   ```bash
-   echo "deb [trusted=yes arch=all] https://bauaasoni37-cpu.github.io/my-termux-repo/ termux extras" > $PREFIX/etc/apt/sources.list.d/myrepo.list
-   ```
-2. Update the package index automatically.
+This script automatically:
+1. Adds **my-termux-repo** to your package sources.
+2. Adds the **termuxvoid** repository (required dependency for `android-sdk` and `flutter` packages).
+3. Updates your package index so you can run `pkg install build` immediately.
 
 ---
 
