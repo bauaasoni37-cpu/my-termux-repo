@@ -1,3 +1,28 @@
+Package: android-sdk
+Version: 36.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: openjdk-21, p7zip, axel
+Suggests: cmake, ninja-build
+Section: development
+Priority: optional
+Homepage: https://developer.android.com
+Description: Android SDK built using musl libc, supporting multiple architectures.
+ Provides Android NDK 29.0.14206865 and CMake 4.1.2.
+ Includes:
+  - Android SDK tools
+  - Android NDK 29.0.14206865
+  - CMake 4.1.2
+  - Platform tools
+  - Build tools
+  - System images
+Filename: dists/termux/extras/binary-all/android-sdk_36.0.0_all.deb
+Size: 1652
+MD5Sum: c2178f3b695b5f75751b5b456f46dc2a
+SHA1: 015e6309734edbdaf8f98c22683ed31a8abe2591
+SHA256: 31f8e616e1b425a46569266af55c303a59b09a6ca5ccef97a1bdc243d0972519
+SHA512: f36c81ec22baf51da390e5cee35e8706f60a721966727c5213097264cab573dd67ec1c084cfed85739d05023118cb425a2066d319c94fe343371111b4c63c462
+
 Package: build
 Version: 1.0.0
 Architecture: all
@@ -10,6 +35,28 @@ MD5Sum: 7a19e88842fbc5e6bc96d72ce310adc8
 SHA1: f17187ffa2625303604a9bdc6d88657ea530d684
 SHA256: eb7f2a2d3753dbcf1c4de58393d01fbffedffbff0d087f6df0595122e6f98792
 SHA512: a6b39432b493e64cf44ce882067bdd229b38b65ae89ed2859eddf9bacbe3d80f427e887e7ecea6e0f065caa014e10b0068e417c5ca06801ae085f3042973826a
+
+Package: flutter
+Version: 3.41.9
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Pre-Depends: x11-repo
+Depends: git, axel, which, p7zip, android-sdk
+Section: development
+Priority: optional
+Homepage: https://flutter.dev
+Description: Google's UI toolkit for building native apps
+ Cross-platform app development with:
+ - Hot reload development
+ - Native ARM performance
+ - Material/Cupertino widgets
+ - Android/iOS/Linux support
+Filename: dists/termux/extras/binary-all/flutter_3.41.9_all.deb
+Size: 1568
+MD5Sum: 0bce1169914bdebb163cbfcae8f47607
+SHA1: e8323d3435c6f63c7b7cd6cdd478bbd95e09ed35
+SHA256: e48d4bb46b4833d936431541c36240276502113c2b62b34cc5115aec8633823a
+SHA512: 90efbdb189aa8bbf854aad38f3ea57ff834d6fd7e044600ef9bef1218906e2111a6a92c6922245b2abd8d2a4d439162efd2d81bd6260e7ddab9f404639947dc3
 
 Package: hello-custom
 Version: 1.0.0

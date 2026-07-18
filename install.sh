@@ -13,12 +13,6 @@ mkdir -p "$PREFIX/etc/apt/sources.list.d"
 # Create the sources.list.d file
 echo "deb [trusted=yes arch=all] https://${GH_USER}.github.io/${REPO_NAME}/ termux extras" > "$PREFIX/etc/apt/sources.list.d/myrepo.list"
 
-# Add dependent termuxvoid repository for android-sdk and flutter packages
-if [ ! -f "$PREFIX/etc/apt/sources.list.d/termuxvoid.list" ] && ! grep -q "termuxvoid" "$PREFIX/etc/apt/sources.list" "$PREFIX/etc/apt/sources.list.d/"* 2>/dev/null; then
-    echo -e "\e[1;32m[*] Adding dependent repository (termuxvoid)...\e[0m"
-    echo "deb [trusted=yes arch=all] https://termuxvoid.github.io/repo termuxvoid main" > "$PREFIX/etc/apt/sources.list.d/termuxvoid.list"
-fi
-
 echo -e "\e[1;32m[*] Updating package index...\e[0m"
 apt-get update -y
 
