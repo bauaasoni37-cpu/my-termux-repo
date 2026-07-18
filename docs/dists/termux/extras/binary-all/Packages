@@ -23,18 +23,37 @@ SHA1: 015e6309734edbdaf8f98c22683ed31a8abe2591
 SHA256: 31f8e616e1b425a46569266af55c303a59b09a6ca5ccef97a1bdc243d0972519
 SHA512: f36c81ec22baf51da390e5cee35e8706f60a721966727c5213097264cab573dd67ec1c084cfed85739d05023118cb425a2066d319c94fe343371111b4c63c462
 
+Package: antigravity-cli
+Version: 1.1.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, clang, python, glibc
+Section: devel
+Priority: optional
+Homepage: https://antigravity.google/
+Description: AI‑powered coding assistant (glibc wrapper for Termux)
+ Antigravity CLI provides real‑time code suggestions. This package
+ downloads the official Linux ARM64 binary, applies necessary memory
+ patches, and runs it inside the Termux glibc environment.
+Filename: dists/termux/extras/binary-all/antigravity-cli_1.1.3_all.deb
+Size: 2516
+MD5Sum: e0b91478f3e79037278f774ad1f04e22
+SHA1: 5c31aeeb63bdee916353e219d0853c93faae6b3e
+SHA256: 1a48e4d65a8af8ceaefd5ea1c509484ed4b330534c685811b8bec1e5c86e2bca
+SHA512: 3548b12e9f91fa8b85edf917fbdd0f9f3407efd9557682b221d683ac62d2a0c54ec511802fc0fa969b8a3adb8faca461327b74badde45679d69978b3647f1933
+
 Package: build
 Version: 1.0.0
 Architecture: all
 Maintainer: Antigravity <antigravity@google.com>
-Depends: nodejs-lts, openjdk-17, openjdk-21, android-sdk, flutter, yarn, git, wget, curl, unzip, zip, tar, clang, make, cmake, ninja, apksigner, aapt2, ncurses-utils
+Depends: nodejs-lts, openjdk-17, openjdk-21, android-sdk, flutter, yarn, git, wget, curl, unzip, zip, tar, clang, make, cmake, ninja, apksigner, aapt2, ncurses-utils, antigravity-cli
 Description: Fully automated Android Build Environment setup for Termux. Installs all packages and sets up SDK/NDK variables.
 Filename: dists/termux/extras/binary-all/build_1.0.0_all.deb
-Size: 9640
-MD5Sum: 7230d5f6fb4e3aeea8c00cc4064f1ea5
-SHA1: 02a4b89170d58436568a42b7d05a6b3412ba397c
-SHA256: 8e83c3068cb6fb28cc09a8aa632eaa8e25a05483a564a44ecda481cef80170a4
-SHA512: 15683b6fd3faed896fe85d97f8fb4941295879d89becc81a12fa13b98af35716a327f204c657dbf03474237ef298d9f3b76af615468f72d851b08755af5b90d3
+Size: 10048
+MD5Sum: 280c7e59727e75e3fded746d76d5933d
+SHA1: 149c0b96be75c2e6d9d9c888c763647ab47ccb27
+SHA256: 9f643b894db026fd297b43a012ae8fa635ce3c9385229602aedab33d9a7976e0
+SHA512: 01528013b436a20cae606b5ede65d8785b1688ba6584d0637bfe08361613708eb3594617fac8e7b07afc5383899edf775c143e009c765035e2e7d8276d610c9e
 
 Package: flutter
 Version: 3.41.9
