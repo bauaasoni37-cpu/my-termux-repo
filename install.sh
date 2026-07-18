@@ -11,7 +11,7 @@ echo -e "\e[1;32m[*] Adding $REPO_NAME to Termux package sources...\e[0m"
 mkdir -p "$PREFIX/etc/apt/sources.list.d"
 
 # Create the sources.list.d file
-echo "deb [trusted=yes] https://${GH_USER}.github.io/${REPO_NAME}/termux/ termux extras" > "$PREFIX/etc/apt/sources.list.d/myrepo.list"
+echo "deb [trusted=yes arch=all] https://${GH_USER}.github.io/${REPO_NAME}/termux/ termux extras" > "$PREFIX/etc/apt/sources.list.d/myrepo.list"
 
 echo -e "\e[1;32m[*] Updating package index...\e[0m"
 apt-get update -y
