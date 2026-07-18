@@ -62,11 +62,11 @@ Maintainer: Antigravity <antigravity@google.com>
 Depends: nodejs-lts, openjdk-17, openjdk-21, android-sdk, flutter, yarn, git, wget, curl, unzip, zip, tar, clang, make, cmake, ninja, apksigner, aapt2, ncurses-utils
 Description: Fully automated Android Build Environment setup for Termux. Installs all packages and sets up SDK/NDK variables.
 Filename: dists/termux/extras/binary-all/build_1.0.0_all.deb
-Size: 9648
-MD5Sum: bee19022a533a4277e7d8c43a57f8e2c
-SHA1: 22a71e7013d7d8992d1b048509cedf931aeaaef4
-SHA256: 0a98105e0f8ed8b633fe477b9258be4073696e675d7a9d08b291461c0dc97f2c
-SHA512: 9c00e12bd473e78542c290f21ccb37d209864437ec671b39055cf8773094c2641db53b3b84455a8fd76a9d3c61e6bf2fe1967cba2ab78c7d99a66f7feea85b6b
+Size: 43656
+MD5Sum: f24d59fbd3f38a7b91f79241c4f41311
+SHA1: 39ae68513987cf7a2157bd234b8ba3f9a87666a5
+SHA256: 62f43750a558db4287dc301aa1a68455a92aea40331692db6cb3aea058bb6e15
+SHA512: d624c867c11413a3e2026104f016bb34adafe606ed93f8c3fea6a9685f158f9ba188ad127cfab44dac3f278ec3a3c0d1e7a15f4540de49b8be69f3317a102c18
 
 Package: flutter
 Version: 3.41.9
