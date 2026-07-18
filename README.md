@@ -51,6 +51,20 @@ pkg install hello-custom
 hello-custom
 ```
 
+### 3. `android-sdk`
+Pre-configured Android SDK and NDK distribution package (required for `build`).
+To install:
+```bash
+pkg install android-sdk
+```
+
+### 4. `flutter`
+Google's UI toolkit and Flutter SDK distribution package (required for `build`).
+To install:
+```bash
+pkg install flutter
+```
+
 ---
 
 ## 🛠️ How to Add Your Own Packages (For Owner)
