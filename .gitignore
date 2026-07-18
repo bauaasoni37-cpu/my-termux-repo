@@ -1,0 +1,6 @@
+# Ignore build scripts and raw deb files
+make_sample_deb.sh
+make_agy_deb.sh
+update_repo.sh
+push_to_github.sh
+debs/
